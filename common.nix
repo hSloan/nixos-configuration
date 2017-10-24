@@ -85,12 +85,12 @@
   # Users
   users.defaultUserShell = "/var/run/current-system/sw/bin/fish";
   users.mutableUsers = false;
-  users.extraUsers.john = {
+  users.extraUsers.zigpolymath = {
     uid = 1000;
     createHome = true;
-    home = "/home/john";
-    description = "John Cotton Ericson";
-    extraGroups = [ "john" "networkmanager" "wheel" ];
+    home = "/home/zigpolymath";
+    description = "Ishaq Sloan";
+    extraGroups = [ "zigpolymath" "networkmanager" "wheel" ];
     isSystemUser = false;
     isNormalUser = true;
     useDefaultShell = true;
